@@ -1,6 +1,13 @@
 body {
     font-size: 18px;
 }
+ul.dropdown-menu{
+    font-size: 18px;
+}
+.rn-carousel-control.rn-carousel-control-next, .rn-carousel-control.rn-carousel-control-prev{
+    right: 0.5em;
+    top: 11em
+}
 h1#hot{
     text-align: left;
     color: crimson;
