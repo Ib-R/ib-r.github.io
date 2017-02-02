@@ -1,0 +1,13 @@
+<div id="home">
+    <div class="phones" ng-repeat="x in p | filter:{name:id}">
+       <a ng-href="/specs/{{x.name}}">
+            <div class="panel panel-default">
+                 <div class="panel-heading">{{x.name}}</div>
+                 <div class="panel-body">
+                  <img  ng-src="{{x.img}}" alt="img"></div>
+                 <div class="panel-footer">
+                  <p>{{x.price}} EGP</p></div>
+            </div>
+       </a>
+    </div>
+</div>
