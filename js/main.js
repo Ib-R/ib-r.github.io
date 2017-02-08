@@ -63,22 +63,10 @@ app.controller('ctrl', function($scope, $http,$location ,$routeParams, $rootScop
           $scope.search.name = null;
      }
    }
-//MailChamp API   
-
-   
-  $scope.aler = function(s){
-      $http({
-              method: 'post',
-              url: 'https://us15.api.mailchimp.com/3.0/lists/209317f46d',
-              headers: { 
-                      "Content-Type": "application/json",
-                      "X-HTTP-Method-Override": "PUT"},
-              data:{"email_address": "himaa_pc@hotmail.com",
-                    "status":"pending"}
-   });
-       
-
-  }
+    
+    
+  
     
 });
+
 
