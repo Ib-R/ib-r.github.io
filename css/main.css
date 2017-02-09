@@ -197,14 +197,11 @@ div#container {
 	margin-bottom: 0 !important;
 	padding-bottom: 0;
 }
-.newsletter-box input#appendedInputButton {
-	background: #FFFFFF;
-	display: inline-block;
-	float: left;
-	height: 30px;
-	clear: both;
-	width: 100%;
+.email{
+    margin-bottom: 2px;
+    height: 40px;
 }
+
 .newsletter-box .btn {
 	border: medium none;
 	-webkit-border-radius: 3px;
@@ -216,19 +213,13 @@ div#container {
 	height: 40px;
 	padding: 0;
 	width: 100%;
-	color: #fff;
-}
-#newsletter {
-    border: none;
-    border-radius: 8px;
+    background-color: darkgray;
+    color: aliceblue;
 }
 .newsletter-box {
 	overflow: hidden;
 }
-.bg-gray {
-	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
-	box-shadow: 0 1px 0 #B4B3B3;
-}
+
 .social li {
 	background: none repeat scroll 0 0 #B5B5B5;
 	border: 2px solid #B5B5B5;
